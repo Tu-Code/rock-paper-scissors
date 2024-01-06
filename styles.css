@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f6f6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.choices button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    background-color: #ff7eb9; /* Pretty shade of pink */
+    border-color: #ff7eb9; /* Matching border color */
+}
+
+.choices button:hover {
+    background-color: #ff5f9e; /* Darker pink on hover */
+    border-color: #ff5f9e;
+}
+
+.result p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    color: #555;
+}
